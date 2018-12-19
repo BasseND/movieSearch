@@ -1,0 +1,27 @@
+#movies img,
+#movie img {
+    width: 100%;
+}
+
+.well {
+    background-color: #073642;
+    padding: 20px;
+    border-radius: 5px;
+    -webkit-box-shadow: 2px 2px 6px rgba(3, 11, 13, 0.34);
+    box-shadow: 2px 2px 6px rgba(3, 11, 13, 0.34);
+}
+
+.well h5 {
+    font-size: 1.25rem;
+    margin-top: 20px;
+    margin-bottom: 6px;
+}
+
+@media(min-width:960px) {
+    #movies .col-md-3 .well {
+        height: 390px;
+    }
+    #movies .col-md-3 img {
+        height: 240px;
+    }
+}
